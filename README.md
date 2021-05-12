@@ -1,2 +1,2 @@
 # GP2-pathway-enrichment-pipeline
-Pathway and cell type enrichment pipeline
+IPDGC x GP2 Hackathon 2021 Project
