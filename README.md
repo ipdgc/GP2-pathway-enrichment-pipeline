@@ -4,6 +4,9 @@ IPDGC x GP2 Hackathon 2021 Project - Pathway and cell type enrichment pipeline
 ## Project aim
 Build a pipeline on Terra that uses public PD summary statistics to investigate biological pathway enrichment as well as cell type and tissue enrichment in GWAS loci.
 
+## Contributors
+Shameemah Abrahams, Inas Elsayed, Vassilene Iankova, Amica Muller, Zunej, Manuela Tan
+
 ## Steps
 
 1. First import PD GWAS summary statistics into Terra workspace
