@@ -14,14 +14,14 @@ Shameemah Abrahams, Inas Elsayed, Vassilene Iankova, Amica Muller, Zunej, Manuel
 Using import_GWAS_sumstats_Manuela.ipynb
 
 
-### 2. Format for FUMA using format_for_FUMA_Manuela.ipynb
+### 2. Format for FUMA 
 
-This saves the GWAS summary statistics in FUMA format, then you can just upload this straight to FUMA. So far we can't find a way to link/embed FUMA within Terra.
+Using format_for_FUMA_Manuela.ipynb. This saves the GWAS summary statistics in FUMA format, then you can just upload this straight to FUMA. So far we can't find a way to link/embed FUMA within Terra.
 
 
 ### 3. Run WebGestaltR in Terra
 
-
+Using run_WebGestaltR_Manuela.ipynb.
 
 
 ## Notes
