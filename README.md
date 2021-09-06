@@ -21,7 +21,7 @@ Using format_for_FUMA_Manuela.ipynb. This saves the GWAS summary statistics in F
 
 ### 3. Run WebGestaltR in Terra
 
-Using run_WebGestaltR_Manuela.ipynb. For this we used the PD GWAS significant loci (p < 5 x 10^^-8) annotated with the nearest genes, available from https://www.nature.com/articles/ng.3043 (Supplementary Table 2).
+Using run_WebGestaltR_Manuela.ipynb. For this we used the PD GWAS significant loci (p < 5 x 10<sup>-8</sup>) annotated with the nearest genes, available from https://www.nature.com/articles/ng.3043 (Supplementary Table 2).
 
 
 ## Notes
