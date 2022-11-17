@@ -58,17 +58,9 @@ The goal for this project was to build a pipeline on Terra that uses public PD s
 
 ### Workflow Summary
 
-### PD_LRRK2_hackathon.ipynb
-1. Setting up
-2. Preparing clinical files
-3. Genetic QC
-4. Heritability
-5. Genetic risk score 
-
-### runs_of_homozygosity.ipynb
-1. Setting up
-2. Quality control
-3. Runs of homozygosity
+1. Setting up and importing summary statistics
+2. Formatting summary statistics for FUMA
+3. Using WebGestaltR
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,8 +69,7 @@ The goal for this project was to build a pipeline on Terra that uses public PD s
 
 ### Prerequisites
 
-* Plink
-* GCTA
+* [WebGestaltR](https://cran.r-project.org/web/packages/WebGestaltR/index.html) 
 
 ### Installation
 
