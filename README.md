@@ -54,7 +54,7 @@ The goal for this project was to build a pipeline on Terra that uses public PD s
 
 ### Background/motivation
 
-     
+Investigating GWAS loci enrichment in pathways, cell types, and tissues is an important part of linking genetic risk to biological mechanisms. Peparing GWAS summary statistics and performing enrichment analyses can be time-consuming. This workflow serves as an example for how to use and format summary statistics for popular software FUMA and WebGestaltR.     
 
 ### Workflow Summary
 
@@ -75,7 +75,7 @@ The goal for this project was to build a pipeline on Terra that uses public PD s
 
 1. Clone the repo
    ```sh
-   git clone ipdgc/GP2-post-GWAS-analysis
+   git clone https://github.com/ipdgc/GP2-pathway-enrichment-pipeline.git
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -87,7 +87,21 @@ The goal for this project was to build a pipeline on Terra that uses public PD s
 
 These notebooks can be directly uploaded to your workspace on Terra. They are designed to be used on Terra with AMP-PD data, but by changing the file paths you can use these notebooks anywhere other than Terra and for any data.
 
-_For more examples, please refer to Plink [documentation](https://www.cog-genomics.org/plink/) and GCTA [documentation](https://yanglab.westlake.edu.cn/software/gcta/#Overview)_
+
+### 1. First import PD GWAS summary statistics into Terra workspace
+
+Using import_GWAS_sumstats_Manuela.ipynb. Summary statistics (excluding 23andMe data) were downloaded from https://pdgenetics.org/resources and are publicly available.
+
+
+### 2. Format for FUMA 
+
+Using format_for_FUMA_Manuela.ipynb. This saves the GWAS summary statistics in FUMA format, then you can just upload this straight to FUMA. So far we can't find a way to link/embed FUMA within Terra.
+
+### 3. Run WebGestaltR in Terra
+
+Using run_WebGestaltR_Manuela.ipynb. For this we used the PD GWAS significant loci (p < 5 x 10<sup>-8</sup>) annotated with the nearest genes, available from https://www.nature.com/articles/ng.3043 (Supplementary Table 2).
+
+_For more examples, please refer to FUMA [documentation](https://fuma.ctglab.nl/tutorial) and WebGestaltR [documentation](https://cran.r-project.org/web/packages/WebGestaltR/index.html)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,7 +109,7 @@ _For more examples, please refer to Plink [documentation](https://www.cog-genomi
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [AMP-PD](https://amp-pd.org/)
+* We used some of AMP-PD's really helpful [setup code](https://amp-pd.org/](https://app.terra.bio/#workspaces/fc-amp-pd-alpha/AMP%20PD%20-%20Workshop%20-%2020190508)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
