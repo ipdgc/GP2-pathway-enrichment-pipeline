@@ -109,7 +109,7 @@ _For more examples, please refer to FUMA [documentation](https://fuma.ctglab.nl/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* We used some of AMP-PD's really helpful [setup code](https://amp-pd.org/](https://app.terra.bio/#workspaces/fc-amp-pd-alpha/AMP%20PD%20-%20Workshop%20-%2020190508)
+* We used some of AMP-PD's really helpful [setup code](https://app.terra.bio/#workspaces/fc-amp-pd-alpha/AMP%20PD%20-%20Workshop%20-%2020190508)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
