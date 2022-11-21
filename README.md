@@ -46,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Project Screen Shot][project-screenshot]]
+![Project Screen Shot][project-screenshot]
 
 ### Quick Description
 
